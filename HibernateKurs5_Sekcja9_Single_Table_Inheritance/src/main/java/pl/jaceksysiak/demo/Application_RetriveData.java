@@ -41,6 +41,25 @@ public class Application_RetriveData {
 			}
 			
 			
+//			 taki bêdzie SQL
+//			
+//			select 
+//			investemen0_.PORTFOLIO_ID as PORTFOL11_0_0_, 
+//			investemen0_.INVESTMENT_ID as INVESTME2_0_0_, 
+//			investemen0_.INVESTMENT_ID as INVESTME2_0_1_, 
+//			investemen0_.ISSUER as ISSUER3_0_1_, 
+//			investemen0_.NAME as NAME4_0_1_, 
+//			investemen0_.PORTFOLIO_ID as PORTFOL11_0_1_, 
+//			investemen0_.PURCHASE_DATE as PURCHASE5_0_1_, 
+//			investemen0_.QUANTITY as QUANTITY6_0_1_, 
+//			investemen0_.SHARE_PRICE as SHARE_PR7_0_1_, 
+//			investemen0_.INTEREST_RATE as INTEREST8_0_1_, 
+//			investemen0_.MATURITY_DATE as MATURITY9_0_1_, 
+//			investemen0_.VALUE as VALUE10_0_1_, 
+//			investemen0_.INVESTMENT_TYPE as INVESTME1_0_1_ 
+//			from INVESTMENT investemen0_ where investemen0_.PORTFOLIO_ID=?
+			
+			
 			
 //        taki sql bêdzie:			
 //			Hibernate: select investemen0_.PORTFOLIO_ID as PORTFOLI5_1_0_, 

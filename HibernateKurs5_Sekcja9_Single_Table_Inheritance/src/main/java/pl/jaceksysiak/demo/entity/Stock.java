@@ -3,13 +3,11 @@ package pl.jaceksysiak.demo.entity;
 import java.math.BigDecimal;
 
 import javax.persistence.Column;
+import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
 
 @Entity
-@Table(name = "STOCK")
+@DiscriminatorValue("STCK_DISCRIMINATOR")
 public class Stock extends Investment {
 
 
